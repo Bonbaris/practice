@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.timer-container {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#timeDisplay {
+    font-size: 2em;
+    margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eef;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#cardContent {
+    margin-top: 10px;
+}
